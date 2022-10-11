@@ -1,0 +1,18 @@
+@media (min-width: 1024px) {
+    #job--info__col {
+        display: grid;
+        /* grid-template-columns: 33.3% 33.3% 33.3%; */
+        grid-template-columns: repeat(3, 343px);
+        grid-template-rows: repeat(2, 600px);
+        grid-gap: 10px;
+    }
+    section > .container {
+        width: 1170px;
+        margin: auto;
+        display: block;
+        padding: 30px 50px;
+    }
+    .col-md-6 {
+        width: auto;
+    }
+}
